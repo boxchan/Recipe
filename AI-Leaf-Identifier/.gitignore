@@ -1,0 +1,148 @@
+# Created by https://www.gitignore.io
+
+### Node ###
+node_modules
+npm-debug.log*
+yarn-error.log*
+
+### React-Native ###
+*.orig
+*.local
+*.iml
+*.ipr
+*.iws
+.idea
+build/
+android/app/build/
+android/.gradle/
+android/build/
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+*.xcodeproj
+*.xcworkspace
+*.xcscheme
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.suo
+*.sln
+*.njsproj
+*.slconfig
+*.sln.docstates
+*.tgz
+*.rar
+*.zip
+*.vspscc
+*.vssscc
+*_i.scc
+*_h.scc
+*.jsp
+*.jpr
+*.dproj
+*.ProjectSettings.asset
+*.ProjectWorkspace.asset
+xcuserdata/
+DerivedData/
+Library/
+*.tmproj
+*.vscode/
+*.sublime-*
+*.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
+MBSchema.framework/
+*.lproj/Localizable.strings
+*.nib
+*.pbxuser
+files.localized
+xcuserdata
+project.xcworkspace/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.env
+*.egg-info/
+*.egg
+sdist/
+dist/
+wheels
+pip-wheel-metadata/
+share/python-wheels/
+*.whl
+*.pyd
+*.d
+
+# Environments
+.env*
+.venv*
+venv*
+ENV*
+env.bak*
+venv.bak*
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.py-version
+.egg-base
+.pytest_cache
+.pyc
+.pyo
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments (conda)
+conda-meta/
+conda-envs.txt
+*.conda
+*.mamba
+*.mamba.lock
+conda-build/
+pkgs/
+
+# Environments (virtualenv)
+*.pypo_cache
+
+# Distributions
+*.egg
+*.whl
+*.zip
+*.tar.gz
+*.tar.bz2
+*.apk
+*.ipa
+*.egg-info/
+.installed.cfg
+*.dist-info/
+*.pytest_cache
